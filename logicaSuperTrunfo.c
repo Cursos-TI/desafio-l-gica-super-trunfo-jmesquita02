@@ -74,7 +74,7 @@ CartaCidade comparar_cartas(CartaCidade carta1, CartaCidade carta2, char atribut
 
 // Função para exibir os dados de uma carta
 void exibir_carta(CartaCidade carta) {
-    printf("\nCidade: %s - %s\n", carta.nome, carta.estado);
+    printf("Cidade: %s - %s\n", carta.nome, carta.estado);
     printf("Código: %d\n", carta.codigo);
     printf("População: %d\n", carta.populacao);
     printf("Área: %.2f km²\n", carta.area);
