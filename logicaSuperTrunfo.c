@@ -25,7 +25,7 @@ int main() {
 
     // Dados da segunda carta
     // Exemplo: Rio de Janeiro
-    printf("\nCadastro da segunda cidade:\n");
+    printf("Cadastro da segunda cidade:\n");
     snprintf(estado2, sizeof(estado2), "RJ");
     snprintf(codigo2, sizeof(codigo2), "B02");
     snprintf(cidade2, sizeof(cidade2), "RioDeJaneiro");
@@ -73,7 +73,7 @@ int main() {
     }
 
     // Comparação de PIB
-    printf("\nComparação de cartas (Atributo: PIB):\n");
+    printf("Comparação de cartas (Atributo: PIB):\n");
 
     printf("Carta 1 - %s (%s): PIB = %.2f\n", cidade1, estado1, pib1);
     printf("Carta 2 - %s (%s): PIB = %.2f\n", cidade2, estado2, pib2);
@@ -88,7 +88,7 @@ int main() {
     }
 
     // Comparação de PIB per capita
-    printf("\nComparação de cartas (Atributo: PIB per capita):\n");
+    printf("Comparação de cartas (Atributo: PIB per capita):\n");
 
     printf("Carta 1 - %s (%s): PIB per capita = %.2f\n", cidade1, estado1, pib_per_capita1);
     printf("Carta 2 - %s (%s): PIB per capita = %.2f\n", cidade2, estado2, pib_per_capita2);
